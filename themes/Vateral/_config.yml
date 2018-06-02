@@ -1,0 +1,93 @@
+
+# html lang
+language: en
+
+# seo优化
+seo:
+ keywords: "网站关键字"
+ description: "网站简介"
+
+# Miscelaneous
+favicon: /source/favicon.ico
+
+# head-bg 头像背景图 
+headbg: /images/header-bg.png
+# header 头像图 
+header: /images/header.jpg
+
+# post-header 标语部分
+post_header:
+  img: /images/coverpic.png
+  about:
+    - "你好啊 欢迎来到本站"
+  url: "https://wiolem.github.io/about/"
+  visitor_front: ""
+  visitor_back: ""
+
+# 主配色
+blendent:
+  main: "#26A69A"
+
+#访客
+visitor: true
+
+#博客时间统计
+time: true
+#博客开启的时间 格式为：月/日/年 几点:几分:几秒
+begin_time: 1/1/2017 00:00:00
+
+#链接
+sns:
+    github: "https://github.com/wiolem"
+    weibo: "http://weibo.com/CoolLee95/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1"
+    zhihu: "https://www.zhihu.com/people/niu-dun-ai-chi-xi-gua/activities"
+    twitter: "https://twitter.com/NewtonLee95"
+    email: "http://example.com"
+
+#默认thumbnail图片的数目
+thumbnail: 19
+
+#nav
+sidebar:
+    homepage:
+        use: true
+    archives:
+        use: true
+    categories:
+        use: false
+    tags:
+        use: true
+    about:
+        use: true
+    friends:
+        use: true
+    photo:
+        use: true
+
+# Reading experience
+reading:
+    entry_excerpt: 180
+
+#photo page
+photo:
+    name: "Photos"
+    about: "Beauty"
+
+#评论
+comment:
+    use: true
+    shortname: wiolem.disqus.com
+
+# stylesheets loaded in the <head>
+stylesheets:
+  - /css/materialize.min.css
+  - /css/main.min.css
+
+# scripts loaded in the end of the body
+scripts:
+  - /js/jquery-3.1.1.min.js
+  - /js/materialize.min.js
+  - /js/main.min.js
+
+
+
